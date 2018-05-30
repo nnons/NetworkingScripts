@@ -2,7 +2,7 @@ import socket
 import threading
 
 bind_ip = str(input("Enter TCP Source IP : "))
-bind_port = str(input("Enter Source PORT : "))
+bind_port = int(input("Enter Source PORT : "))
 
 # Set up server object
 
